@@ -47,8 +47,11 @@ body {
   .container {
     display: flex;
     /* flex-direction: row; */
+    /* justify-content: flex-start; */
   }
 
   .alt{
     flex-direction: column;
   }
+
+/* Return to, replace border size for many many boxes */
