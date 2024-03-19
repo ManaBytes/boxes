@@ -1,0 +1,48 @@
+body {
+  color: rgb(25, 13, 189);
+  background-color: blueviolet;
+}
+*{/* UNIVERSAL MARGIN BYPASS */
+  margin: 0;
+  padding: 0 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  /* BOX MODEL */
+  /* DEFAULT VALUE display: block; */
+  font-size: 2rem;
+  background-color: salmon;
+  width: 300px;
+  height: 100px;
+  border: 5px solid black;
+
+}
+
+.float{
+  padding: 32px 64px 100px 10px;
+  /*   padding-top: 32px;
+  padding-right: 64px;
+  padding-bottom: 100px;
+  padding-left: 10px; */
+  margin: 20px 40px 50px 150px
+  /* 
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 500px;
+  margin-left: 150px;
+ */
+}
+
+.edge{
+  margin: 0;
+}
+
+.stan{
+  box-sizing: content-box;
+/* DEFAULT BOX MODEL SIZING */
+}
+
+.alt{
+  box-sizing: border-box;
+  /* ALT BOX MODEL SIZING*/
+}
