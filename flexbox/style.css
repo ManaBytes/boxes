@@ -44,3 +44,6 @@ body {
   }
   
   /* END OF BASE STYLES */
+  .container {
+    display: flex;
+  }
