@@ -46,4 +46,9 @@ body {
   /* END OF BASE STYLES */
   .container {
     display: flex;
+    /* flex-direction: row; */
+  }
+
+  .alt{
+    flex-direction: column;
   }
