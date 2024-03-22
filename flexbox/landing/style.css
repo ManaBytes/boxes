@@ -75,3 +75,9 @@
 .last-item {
     order: -1;
 }
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
