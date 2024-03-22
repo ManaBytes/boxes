@@ -40,11 +40,7 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
 }
 
-.social,
-.logo,
-.subscribe {
-  border: 1px solid #5995DA;
-}
+/* .social, .logo, .subscribe {border: 1px solid #5995DA;} Header Debug */
