@@ -23,17 +23,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+    flex-wrap: wrap;
+}
 .container {
     width: 80%;
-    height: 700px;
+    height: 300px;
     margin: 0 auto;
     border: 10px solid var(--clr-dark);
-  }
+    flex-wrap: wrap;
+    overflow: auto;
+}
   
 .item {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #fb7185;
     padding: 1em;
     font-weight: 700;
@@ -41,17 +44,17 @@ body {
     text-align: center;
     border: 10px solid var(--clr-accent);
     border-radius: 10px;
-  }
+}
   
-  /* END OF BASE STYLES */
-  .container {
+/* END OF BASE STYLES */
+.container {
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: flex-start; */
-  }
+    flex-direction: row;/* def */
+    justify-content: flex-start;/* def */
+}
 
-  .alt{
+.alt{
     flex-direction: column;
-  }
+}
 
 /* Return to, replace border size for many many boxes */
