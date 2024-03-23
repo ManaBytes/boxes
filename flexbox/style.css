@@ -35,8 +35,8 @@ body {
 }
   
 .item {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-color: #fb7185;
     padding: 1em;
     font-weight: 700;
@@ -49,6 +49,7 @@ body {
 /* END OF BASE STYLES */
 .container {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: row;/* def */
     justify-content: flex-start;/* def */
 }
