@@ -75,10 +75,6 @@ body {
   flex-wrap: wrap-reverse;
 }
 
-.just {
-  justify-content: flex-start;
-}
-
 .juste {
   justify-content: flex-end;
 }
