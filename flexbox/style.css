@@ -27,22 +27,22 @@ body {
 }
 .container {
     width: 400px;
-    height: 300px;
-    margin: 0 auto;
-    border: 10px solid var(--clr-dark);
-    flex-wrap: wrap;
+    height: 500px;
+    margin: 5px auto;
+    border: 10px inset var(--clr-dark);
+   flex-wrap: wrap; 
     overflow: auto;
 }
   
 .item {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     background-color: #fb7185;
     padding: 1em;
     font-weight: 700;
     color: var(--clr-light);
     text-align: center;
-    border: 10px solid var(--clr-accent);
+    border: 10px outset var(--clr-accent);
     border-radius: 10px;
 }
   
