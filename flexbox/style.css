@@ -35,8 +35,8 @@ body {
 }
   
 .item {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     background-color: #fb7185;
     padding: 1em;
     font-weight: 700;
@@ -52,6 +52,7 @@ body {
     flex: 1 1 auto;
     flex-direction: row;/* def */
     justify-content: flex-start;/* def */
+    flex-wrap: nowrap;/* def */
 }
 
 .row{
@@ -64,10 +65,6 @@ body {
 
 .colc{
   flex-direction: column-reverse;
-}
-
-.nowrap {
-  flex-wrap: nowrap;
 }
 
 .wrap {
