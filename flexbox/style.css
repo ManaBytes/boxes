@@ -26,7 +26,7 @@ body {
     flex-wrap: wrap;
 }
 .container {
-    width: 80%;
+    width: 400px;
     height: 300px;
     margin: 0 auto;
     border: 10px solid var(--clr-dark);
@@ -57,4 +57,22 @@ body {
     flex-direction: column;
 }
 
-/* Return to, replace border size for many many boxes */
+.just {
+  justify-content: flex-start;
+}
+
+.juste {
+  justify-content: flex-end;
+}
+.justc {
+  justify-content: center;
+}
+.justb {
+  justify-content: space-between;
+}
+.justa {
+  justify-content: space-around;
+}
+.juste {
+  justify-content: space-evenly;
+}
