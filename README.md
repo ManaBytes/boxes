@@ -1,13 +1,13 @@
 # Boxes
 
-
 Created to mess with boxes
-Will import custom excersises etc
+Will import custom excesses etc
 
 ## CSS
+
 Borders & Boxes
 Box Model
 
 ### To be added
+
 Flexbox
- 

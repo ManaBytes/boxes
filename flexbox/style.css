@@ -1,70 +1,70 @@
 /* BASE STYLES */
 :root {
-    --clr-dark: #0f172a;
-    --clr-light: #f1f5f9;
-    --clr-accent: #e11d48;
+  --clr-dark: #0f172a;
+  --clr-light: #f1f5f9;
+  --clr-accent: #e11d48;
 }
-  
+
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    word-spacing: 1.4px;
-    font-family: "Roboto", sans-serif;
-    color: var(--clr-dark);
-    background-color: var(--clr-light);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: "Roboto", sans-serif;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
 }
 .container {
-    width: 400px;
-    height: 500px;
-    margin: 5px auto;
-    border: 10px inset var(--clr-dark);
-   flex-wrap: wrap; 
-    overflow: auto;
-    resize:both;
-}
-  
-.item {
-    width: 125px;
-    height: 125px;
-    background-color: #fb7185;
-    padding: 1em;
-    font-weight: 700;
-    color: var(--clr-light);
-    text-align: center;
-    border: 10px outset var(--clr-accent);
-    border-radius: 10px;
-}
-  
-/* END OF BASE STYLES */
-.container {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: row;/* def */
-    flex-wrap: nowrap;/* def */
-    justify-content: flex-start;/* def */
+  width: 400px;
+  height: 500px;
+  margin: 5px auto;
+  border: 10px inset var(--clr-dark);
+  flex-wrap: wrap;
+  overflow: auto;
+  resize: both;
 }
 
-.row{
-    flex-direction: column;
+.item {
+  width: 125px;
+  height: 125px;
+  background-color: #fb7185;
+  padding: 1em;
+  font-weight: 700;
+  color: var(--clr-light);
+  text-align: center;
+  border: 10px outset var(--clr-accent);
+  border-radius: 10px;
+}
+
+/* END OF BASE STYLES */
+.container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row; /* def */
+  flex-wrap: nowrap; /* def */
+  justify-content: flex-start; /* def */
+}
+
+.row {
+  flex-direction: column;
 }
 
 .rowr {
   flex-direction: row-reverse;
 }
 
-.colc{
+.colc {
   flex-direction: column-reverse;
 }
 
@@ -72,7 +72,7 @@ body {
   flex-wrap: wrap;
 }
 
-.wrapr{
+.wrapr {
   flex-wrap: wrap-reverse;
 }
 
