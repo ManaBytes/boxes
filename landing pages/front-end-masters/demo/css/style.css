@@ -8,6 +8,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
 ol {
   list-style: inside;
@@ -16,6 +17,7 @@ ol {
   list-style-type: decimal;
   background-color: hsla(0, 0%, 99%, 0.705);
 }
+/* Investigate drop-shadows, blur, etc. on contrast and readability. Stay in scope! The next lessons is <ol> with PB&J.  */
 li {
   display: inline-block;
   display: list-item;
@@ -23,6 +25,7 @@ li {
 
   margin-right: 1em;
 }
+
 canvas {
   display: block;
   vertical-align: bottom;
