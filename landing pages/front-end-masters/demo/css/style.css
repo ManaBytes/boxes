@@ -9,8 +9,18 @@ ul {
   margin: 0;
   padding: 0;
 }
+ol {
+  list-style: inside;
+  margin: 0;
+  padding: 0;
+  list-style-type: decimal;
+  background-color: hsla(0, 0%, 99%, 0.705);
+}
 li {
   display: inline-block;
+  display: list-item;
+  list-style-position: inside;
+
   margin-right: 1em;
 }
 canvas {
